@@ -1,0 +1,36 @@
+				<div class="col-xs-4 col-xs-offset-4 top-post-area-keiko">
+        			<!-- <div id="PostFormArea" class="post-form-area"> -->
+      					<!-- <div class="post-topic-area"> -->
+      					<!-- <div> -->
+    						<!-- <i class="fa fa-rss post-topic-icon"></i> -->
+    						<!-- <span class="post-topic-title">質問してみましょう！</span> -->
+						<h3>質問してみましょう！</h3>
+  						<!-- </div> -->
+
+  						<form class="new_free_post" id="new_free_post" enctype="multipart/form-data" action="/free_posts" accept-charset="UTF-8" method="post">
+    					<div class="form-group">
+      						<div id="UserIcon" class="user-icon">
+          						<img class="user-image" src="" alt="">
+      						</div>
+      						<div class="text-area">
+        						<textarea id="PostTextField" class="post-area-text-field autosize-on-focus" placeholder="テキストを入力..." name="free_post[content]"></textarea>
+      						</div>
+    					</div>
+    					<div class="form-group">
+        					<label for="PostUploadFileField">
+          					<img class="selected-image post-area-selected-image" src="" style="display: none;">
+        					</label>
+      						<div class="post-area-button-area clearfix">
+          						<label for="PostUploadFileField">
+           					 		<i class="fa fa-camera post-upload-button"></i>
+            						<input accept="image/*" id="PostUploadFileField" class="file-field" type="file" name="free_post[image]">
+          						</label>
+        							<input type="hidden" name="free_post[reference_id]" id="free_post_reference_id">
+        							<input type="submit" name="commit" value="投稿" id="PostSubmitButton" class="btn btn-primary" disabled="disabled" data-disable-with="送信..">
+      						</div>
+    					</div>
+						</form>
+					<!-- </div> -->
+				</div>
+				
+			</div>

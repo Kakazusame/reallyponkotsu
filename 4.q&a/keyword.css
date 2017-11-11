@@ -1,7 +1,7 @@
-ul.tab {
+.container_keyword ul.tab {
     list-style: none;
 }
-ul.tab li {
+.container_keyword ul.tab li {
     float: left;
     margin-right: 10px;
     padding: 10px;
@@ -9,10 +9,10 @@ ul.tab li {
     color: #666;
     cursor: pointer;
 }
-ul.tab li:hover {
+.container_keyword ul.tab li:hover {
     color: #FF0000;
 }
-ul.tab li.active {
+.container_keyword ul.tab li.active {
     background-color: #999;
     color: #fff;
 }

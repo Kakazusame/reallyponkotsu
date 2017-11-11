@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>質問内容</title>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="../css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="../css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="../css/bootstrap_keiko.css">
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="../css/flexslider.css">
+
+
+
+
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="../css/style_keiko.css">
+  <!-- <link rel="stylesheet" href="question.css"> -->
+
+  <!-- inquiry.css-->
+  <link rel="stylesheet" type="text/css" href="inquiry.css">
+
+
+
+  <!-- Modernizr JS -->
+  <script src="../js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+ 
+</head>
+<body>
+  <div id="page">
+  <nav class="fh5co-nav" role="navigation">
+    <div class="top-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-2">
+            <div id="fh5co-logo"><a href="index.html">Joynt<span>.</span></a></div>
+          </div>
+          <div class="col-xs-10 text-right menu-1">
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">colum</a></li>
+              <li class="has-dropdown">
+                <a href="blog.html">Q&A</a>
+                <!-- <ul class="dropdown">
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">eCommerce</a></li>
+                  <li><a href="#">Branding</a></li>
+                  <li><a href="#">API</a></li>
+                </ul> -->
+              </li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="btn-cta"><a href="#"><span>Login</span></a></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="title">質問投稿</h1>
+  </div>
+  <div class="form_step container">
+    <ul class="form_step_list">
+      <li class="active"><span class="form_step_number">01</span><span class="form_step_text">入力</span></li>
+      <li><span class="form_step_number">02</span><span class="form_step_text">確認</span></li>
+      <li><span class="form_step_number">03</span><span class="form_step_text">完了</span></li>
+    </ul>
+  </div>
+
+    <!-- <div class="form_wrapper container"> -->
+      <form method="post" action="post.php">
+            <div class="post">
+                  <p>
+                    <h2>質問<span class="form_title_notice">※選択すると回答率が上がります</span><span class="form_title_label must">必須</span></h2>
+                    <div class="font-droup">
+                      <textarea name="content" cols="50" rows="5"></textarea>
+                    </div>
+                      <!-- /.form_content -->
+                      <div class="form_age">
+                        <div class="form_title">
+                          <h2>年齢<span class="form_title_notice">※選択すると回答率が上がります</span><span class="form_title_label option">任意</span></h2>
+                  
+                        </div>
+                          <ul class="form_age_checkbox">
+                            <li><label><input type="checkbox" name="age[]" value="0~3歳">0~3歳</label></li>
+                            <li><label><input type="checkbox" name="age[]" value="4~6歳">4~6歳</label></li>
+                            <li><label><input type="checkbox" name="age[]" value="小学1・2年生">小学1・2年生</label></li>
+                            <li><label><input type="checkbox" name="age[]" value="小学3・4年生">小学3・4年生</label></li>
+                            <li><label><input type="checkbox" name="age[]" value="小学5・6年生">小学5・6年生</label></li>
+                            <li><label><input type="checkbox" name="age[]" value="中学生">中学生</label></li>
+                            <li><label><input type="checkbox" name="age[]" value="高校生">高校生</label></li>
+                          </ul>
+                        </div>
+                        <!-- /.form_age -->
+                        <div class="form_category">
+                          <div class="form_title">
+                            <h2>カテゴリ<span class="form_title_notice">※選択すると回答率が上がります</span><span class="form_title_label option">任意</span></     h2>
+                          </div>
+                          <ul class="form_category_checkbox">
+                            <li><label><input type="checkbox" name="category[]" value="食事について">食事について</label></li>
+                            <li><label><input type="checkbox" name="category[]" value="就寝について">就寝について</label></li>
+                            <li><label><input type="checkbox" name="category[]" value="排泄について">排泄について</label></li>
+                            <li><label><input type="checkbox" name="category[]" value="身体について">身体について</label></li>
+                            <li><label><input type="checkbox" name="category[]" value="能力について">能力について</label></li>
+                            <li><label><input type="checkbox" name="category[]" value="学校について">学校について</label></li>
+                            <li><label><input type="checkbox" name="category[]" value="性について">性について</label></li>
+                          </ul>
+            </div>
+            <input class="btn" type="submit" name="送信">
+      </form>
+   <!--  </div> -->
+
+
+
+  <div class="form_wrapper container">
+  <!-- /.form_wrapper -->
+    <footer id="fh5co-footer" role="contentinfo">
+            <div class="fh5co-logo" ><a href="index.html"><span style="font-size: 50px; color: black;">　Joynt</span><span>.</span></a></div>
+          </div><br>
+
+
+    <div class="container">
+      <div class="row row-pb-md">
+        <div class="col-md-2 col-md-push-1 fh5co-widget">
+          <h4>Home</h4>
+        </div>
+        <div class="col-md-2 col-md-push-1 fh5co-widget">
+          <h4>コラム</h4>
+        </div>
+
+        <div class="col-md-2 col-md-push-1 fh5co-widget">
+          <h4>Q&A</h4>
+        </div>
+
+        <div class="col-md-2 col-md-push-1 fh5co-widget">
+          <h4>About</h4>
+        </div>
+        <div class="col-md-2 col-md-push-1 fh5co-widget">
+          <h4>Contact</h4>
+        </div>
+        <div class="col-md-2 col-md-push-1 fh5co-widget">
+          <h4>Login</h4>
+        </div>
+      </div>
+      <!-- /.container -->
+      <div class="row copyright">
+        <div class="col-md-12 text-center">
+          <p>
+            <small class="block">&copy; 2017 We are Team PONKOTSU!</small> 
+
+          </p>
+        <!--  <p>
+            <ul class="fh5co-social-icons">
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin"></i></a></li>
+              <li><a href="#"><i class="icon-dribbble"></i></a></li>
+            </ul>
+          </p>
+ -->        </div>
+      </div>
+
+    </div>
+  </footer>
+  </div>
+</body>
+</html>

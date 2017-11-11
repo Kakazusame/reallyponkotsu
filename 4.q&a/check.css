@@ -1,0 +1,70 @@
+
+/*ナビバー固定*/
+body{  
+    margin: 0;  
+    padding: 100px 0 50px 0;
+}  
+* html body{  
+    overflow: hidden;  
+}   
+
+div#headerArea { 
+    position: fixed !important;  
+    position: absolute;  
+    z-index: 9999;
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 100px;  
+}
+
+.form_title {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+/*ナビバー固定終了*/
+
+/*form_step.containerのサイズを修正*/
+.form_step.container{
+padding: 0;
+width: 1140px;
+}
+/*修正終了*/
+
+
+
+h2{
+	text-align: center;
+}
+
+
+/*ここが効いてない*/
+.check_content_bar{
+	color: #fee856;
+}
+/**/
+
+.check_content{
+	text-align: center;
+}
+
+.check_content_text{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.check_content_age{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+.check_content_category{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+.btn.btn-primary{
+	margin-left: 100px;
+}
